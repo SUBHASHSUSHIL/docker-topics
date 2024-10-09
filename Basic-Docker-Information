@@ -1,0 +1,27 @@
+# Docker:-
+=> Docker ek open-source platform hai jo developers ko application banane, deploy karne aur chalane mein madad karta hai. Iska main feature containerization hai, jo ki applications ko containers ke andar run karne
+ka tareeka hai.
+
+# Key points:-
+=> Containers:-
+            -> Containers ek tarah ka isolated environment provide karte hain jisme application aur uski dependencies hoti hain, bina underlying operating system ke upar directly impact kiye.
+            -> Ek container mein jo bhi software chalta hai, wo har jagah same tareeke se chal sakta hai, chahe wo aapki local machine ho ya cloud.
+# Benefits of Docker:-
+=> Portability:-
+              -> Ek baar Docker container ban gaya, toh wo kisi bhi environment mein same tareeke se chalega. Local machine pe chalne wale container ko aap directly production server ya cloud pe deploy kar sakte hain.
+=> Isolation:-
+              -> Har container apne environment mein isolated hota hai, toh ek container ka doosre pe koi effect nahi hota.
+=> Consistency:-
+              -> Docker se har environment mein application ka behavior same rahta hai, chahe development machine ho ya production server.
+=> Efficiency:-
+              -> Docker virtual machines ki tarah heavy nahi hote, kyunki containers ko ek hi operating system kernel use karte hue chalaya ja sakta hai, jo resources ki bachat karta hai.
+
+#Docker Images aur Containers:-
+=> Image:-
+        -> Ye ek template hoti hai jo ek container ko banane ke liye use hoti hai. Image mein sab kuch defined hota hai, jaise operating system, application, aur dependencies.
+=> Container:-
+        -> Image ko run karne par jo ek executable instance banta hai, usse container kehte hain. Ek image se kai containers banaaye ja sakte hain.
+
+# Uses:-
+      -> Agar aapko ek web application banani hai jo ek specific software stack pe kaam karti hai (jaise .Net, Node.js, Python, etc.), toh Docker mein aap us application ke liye ek container bana sakte hain. Phir aap us container
+ko kisi bhi system pe run kar sakte hain bina alag-alag configurations ka tension liye.

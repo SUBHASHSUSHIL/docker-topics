@@ -1,5 +1,5 @@
 This two line of code in fast push project in docker hub
 
-docker build -t <Project name> .
+docker build -t <image name> .
 
-docker buildx build --platform linux/amd64,linux/arm64 --tag subhashsushil32189/<Project name>:1.0 --push .
+docker buildx build --platform linux/amd64,linux/arm64 --tag SUBHASHSUSHIL/<image name>:tag(ex. latest, 1.0) --push .
